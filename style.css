@@ -1,0 +1,236 @@
+*{
+   font-family: 'Fredoka', sans-serif;
+   
+}
+body {
+   background: url(./images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+   
+}
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   
+ }
+ 
+ .container {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+ 
+ .logo {
+   width: 150px;
+ }
+ 
+ .nav-links {
+   display: flex;
+   gap: 15px;
+ }
+ 
+ .redes i {
+   margin: 0 10px;
+   font-size: 2rem;
+   color:rgb(77, 191, 77);
+   margin:25px;
+   justify-content: center;
+ }
+ 
+ .myButton {
+   padding: 8px 16px;
+   background-color:rgb(3, 45, 3) ;
+   border-color:none;
+   font-size: 1rem;
+   margin-left:none;
+   padding: 10px;
+   border-radius: 40px;
+   color:rgb(200, 239, 200);
+ }
+ 
+ .myButton:hover {
+   background-color: #0056b3;
+ }
+ 
+.card-body{
+   text-align: center;
+   justify-content: justify,
+}
+.myTitle{
+   color: rgb(11, 28, 3);
+   font-size:50px;
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+   padding-top: 30px; 
+   padding-left: none;
+
+
+}
+.myTitle2 {
+   text-align: left; 
+   font-family:'Fredoka', sans-serif;;  
+   font-size: 20px; 
+   color: #020403; 
+   padding-top: 80px;  
+   padding-left: 20px;
+}
+.myTitle3{
+   background-color: none;
+   text-align: justify;
+   color:transparent;
+   font-size: 1.5rem;
+   background-image: url('./images/background_.png');
+}
+.myTitle4{
+   color: rgb(11, 28, 3);
+   font-size:30px;
+   border: NONE;
+   justify-content: center;
+   text-align: center;
+   margin-top: 20px;
+   padding-bottom: 20px;
+   
+
+}
+.myTitle41{
+   color: rgb(11, 28, 3);
+   font-size:30px;
+   border: NONE;
+   justify-content: center;
+   text-align: center;
+   margin-top: 50px;
+   background-color: transparent;
+     }
+.myTitle5{
+   background-color: none;
+   text-align: justify;
+   color:transparent;
+   font-size: 1.5rem;
+   background-image: url('./images/background_.png');
+   margin-bottom: 100px;
+   margin-top: 50px;
+}
+.card-text{
+   padding: 5px;
+   font-size: 20px;
+   padding-top: none;
+   
+}
+.btn-primary{ 
+   background-color:#022508 ;
+   border: none;
+   font-size: 1rem;
+   margin: 5px;
+   padding: 15px;
+   border-radius: 40px;
+   color: aliceblue;
+   margin-block-end: 10px;
+   text-align: center;
+   justify-content: center;
+   font-family: 'Fredoka', sans-serif;
+   
+}
+@keyframes beat {
+   0%, 50%, 100% { transform: scale(1, 1); }
+   30%, 80% { transform: scale(0.92, 0.95); }
+ }
+.img1{
+   border-radius: 40px;
+   animation: 1.5s ease 0s;
+   position: relative;
+   animation: 1.5s ease 0s infinite beat;
+}
+
+  .tierra{
+   justify-content: center;
+   text-align: center;
+  }
+
+
+.img2{
+   border-radius: 40px;
+   animation: 1.5s ease 0s;
+   position: relative;
+   animation: 1.5s ease 0s infinite beat;
+   height: 400px;
+   width: 400px;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+.raee{
+   left: 80x;
+   top: 0;
+   width: 80px;
+   height: 80px;
+   justify-content: left;
+}
+
+.card-text{
+   justify-content: justify;
+   text-align: justify;
+   padding: none;
+}
+
+
+.carousel{
+   justify-content: center;
+   text-align: center;
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-right: 20px;
+  
+}
+i.raes{
+   width: 35%;
+   height: 150px;
+   
+ }
+ 
+ .titleCards{
+   color: rgb(9, 16, 2);
+   background-color: rgb(205, 247, 165);
+   border-radius: 25px;
+   font-size: 20px;
+ }
+ .p-3{
+   background-color: aliceblue;
+   text-align: left;
+   border-radius: 40px;
+
+  
+   ;
+ }
+ .col{
+   text-align: center;
+   justify-content: center;
+ }
+ .col_footer{
+   color: #022508;
+   text-align: center;
+   padding-bottom: 20px;
+ }
+
+ .gallery img {
+   width: 100%;
+   height: 200px; /* Mantener la altura constante */
+   object-fit: cov;
+   border-radius: 20px;
+   
+   
+   }
+
+
+
+
+
+
+
+

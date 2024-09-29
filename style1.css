@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./images/background7.png);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar {
+    font-size: 3em; 
+    padding: 1%;
+    background-color: none;
+    position: fixed;
+    width: 100%; 
+    top: 0; /*parte superior*/
+    z-index: 1000; /*  parte superior de otros elementos */
+}
+
+.contenedor__todo {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px; /* Espacio para el navbar fijo */
+}
+
+.contenedor_login {
+    margin: auto; /* Centra el contenedor */
+    padding: 20px; /* Espaciado alrededor del contenedor */
+}
+
+.contenedor_login form {
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.contenedor_login form h2 {
+    color: rgb(26, 49, 3);
+    font-size: 1.5em; /* Tamaño de fuente más grande */
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+    font-weight: bold; /* Hacer el texto más prominente */
+    text-align: center; /* Centrando el texto */
+    text-transform: uppercase; /* Transformar el texto a mayúsculas */
+    letter-spacing: 1px; /* Espaciado entre letras para mayor legibilidad */
+    font-family: Arial, sans-serif; /* Asegurar la fuente */
+
+}
+
+.contenedor_login form .input[type="text"],
+.contenedor_login form .input[type="password"] {
+    width: 80%;
+    border: 2px solid #080303; /* Usar el mismo borde para ambos campos */
+    text-align: center;
+    margin: 1em 0; /* Espaciado uniforme arriba y abajo */
+    font-weight: 700;
+    padding: 10px; /* Espaciado interno para mejor acceso */
+}
+
+.contenedor_login form button {
+    padding: 10px 40px;
+    margin-top: 20px; /* Ajustado para un espaciado más uniforme */
+    border-color:rgb(60, 222, 208) ;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(250, 252, 252);
+}
+
+/* Estilo para las cajas traseras */
+.caja__trasera,
+.caja_trasera_login {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(96, 218, 222, 0.5); /* Solo una caja trasera */
+}
+
+ .caja__traser,.caja_trasera_register form button{
+    text-align: center;
+    width: 10%;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    border: 2px solid #fdfcfc;
+    padding: 10px; /* Agregar padding para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-color: rgb(244, 246, 244);
+}
